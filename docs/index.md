@@ -3,11 +3,11 @@
 layout: home
 
 hero:
-  name: "社内勉強会"
+  name: "勉強会"
   text: "ドキュメント"
-  tagline: 社内勉強会の内容をまとめたドキュメントサイトです。
+  tagline: 過去に開催した勉強会の内容をまとめたドキュメント
   image: /images/logo.png
-  alt: 社内勉強会のロゴ
+  alt: 勉強会のロゴ
   actions:
     - theme: brand
       text: はじめに

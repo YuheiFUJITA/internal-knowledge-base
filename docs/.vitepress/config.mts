@@ -11,7 +11,7 @@ export default defineConfig({
   base: "/internal-knowledge-base/",
   lang: "ja-JP",
   lastUpdated: true,
-  title: "社内勉強会",
+  title: "勉強会",
   description: "ドキュメント",
   head: [
     [
