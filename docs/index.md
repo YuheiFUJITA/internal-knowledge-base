@@ -5,21 +5,22 @@ layout: home
 hero:
   name: "社内勉強会"
   text: "ドキュメント"
-  tagline: My great project tagline
+  tagline: 社内勉強会の内容をまとめたドキュメントサイトです。
+  image: /images/logo.png
+  alt: 社内勉強会のロゴ
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: はじめに
+      link: /introduction
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: メンバー
+      link: /members
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 📖
+    title: ドキュメント
+    details: 公開しているドキュメントをまとめています。
+    link: /articles/
+    linkText: ドキュメント一覧へ
 ---
 
