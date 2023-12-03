@@ -1,0 +1,17 @@
+{
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    },
+    "editor.snippetSuggestions": "top"
+  },
+  "japanese-proofreading.textlint.全角文字と半角文字の間": false,
+  "markdownlint.config": {
+    "no-inline-html": false,
+    "no-space-in-code": false
+  },
+  "editor.formatOnSave": true
+}

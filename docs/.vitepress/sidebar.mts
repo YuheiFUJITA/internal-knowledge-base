@@ -5,7 +5,24 @@ const sidebar: DefaultTheme.Sidebar = {
     {
       text: "ドキュメント",
       link: "/articles/",
-      items: [],
+      items: [
+        {
+          text: "Markdown記法",
+          link: "/articles/how-to-use-markdown",
+        },
+        {
+          text: "ChatGPT",
+          link: "/articles/chat-gpt",
+        },
+        {
+          text: "ハルシネーション",
+          link: "/articles/hallucination",
+        },
+        {
+          text: "ChatGPT Plugin",
+          link: "/articles/chat-gpt-plugin",
+        },
+      ],
     },
   ],
 };
