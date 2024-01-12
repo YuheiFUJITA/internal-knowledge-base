@@ -22,6 +22,10 @@ const sidebar: DefaultTheme.Sidebar = {
           text: "ChatGPT Plugin",
           link: "/articles/chat-gpt-plugin",
         },
+        {
+          text: "JavaScript 基礎",
+          link: "/articles/js-introduction",
+        },
       ],
     },
   ],

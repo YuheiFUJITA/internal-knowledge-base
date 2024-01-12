@@ -13,5 +13,7 @@
     "no-inline-html": false,
     "no-space-in-code": false
   },
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "japanese-proofreading.textlint.冗長な表現": false,
+  "japanese-proofreading.textlint.かっこ類と隣接する文字の間のスペースの有無": false
 }
