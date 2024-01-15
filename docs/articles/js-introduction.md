@@ -14,18 +14,24 @@ JavaScriptは、ウェブページを動的にするためのプログラミン�
 
 JavaScriptの基本的な文法を学びます。
 
-::: info
+::: info console.log()
 なお、途中に出てくる `console.log()` というのは画面にテキストを表示するためのものです。
+
+また、 `console.log()` で画面にテキストを表示することを「標準出力」といいます。
 :::
 
-::: info
+::: info Go to Playgound
 `Go to Playgound` というリンクを開くと実際にコードを実行できるページに飛びます。
 
 <kbd>Ctrl</kbd> / <kbd>Cmd</kbd> + <kbd>Enter</kbd> で実行でき、自由に編集もできます。実際に試してみてください。
 :::
 
-::: info
+::: info Deep Dive
 途中で `Deep Dive` というものが出てきますが、クリックするとより詳しい説明が書かれています。必要に応じて読んでみてください。
+:::
+
+::: info
+途中で `Exam` というものが出てきますが、クリックすると問題が出題されます。理解度チェックのための問題なので、実際に解いてみてください。
 :::
 
 ## 四則演算
@@ -70,9 +76,21 @@ console.log((1 + 2) * 3); // 9
 実際には他にもさまざなな演算子や順番のルールがあります。詳しくは[演算子の優先順位 \- JavaScript \| MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Operator_precedence)を参照してください。
 :::
 
+::: details Exam
+以下の計算をJavaScriptで計算し、計算結果を標準出力せよ。
+
+1. $1 + 2 \times 3$
+2. $100 \div \{(2 + 3) \times 2\}$
+3. $\frac{2}{5}$
+4. $2^8$
+5. $\frac{3}{6} \div \frac{2}{10}$
+
+[解答例](https://www.typescriptlang.org/ja/play?filetype=js#code/PQKgBAjGLAUAxgewHYGdEBsCmA6DiBzACigGowAmaMAZgEoBuWWUS6OJNTXfYiABn5hgYIkSrl61CnUbNWNdghTpseQuOFgArHJbgALEs6qeGquAttL02zct15IELGqBSJUDHka-CBwY0AOpoAQUYDp3oD2DGAABs7hYIBJDID+8oASDIB+DICaDIBADN4cKtzqxBbgAByO+jrG2Wq8YooiAGx0WpoiArJAA)
+:::
+
 ## 変数
 
-JavaScriptには値を一時的に保存しておくための**変数**というものがあります。変数は `const 変数名 = 値` という形で宣言します。これを「変数宣言」といいます。
+JavaScriptには値を一時的に保存しておくための**変数**というものがあります。変数は `const 変数名 = 値` という形で宣言します。これを「変数宣言」と呼び、変数に値を保存することを「代入」と呼びます。
 
 これは、数値や文字列などの値を保存することができます。変数には名前をつけることができ、その名前を使って値を取り出したり、値を変更したりすることができます。
 
@@ -109,7 +127,7 @@ console.log(d); // 3
 
 [Go to Playgound](https://www.typescriptlang.org/play?filetype=js#code/PQKgBIkJqA6mYAYIazIawY4EYmCSGQx3KFNFMIwAUAMYD2AdgM4AuY8YAvGGgNxFGiQywBGSqWACYseAsXLU6vJmCHtO4aHBIC4iMIAsGOPzCZABUqB070DqDIH0GQCQKOfIVKVaYErIYBqMLwVdlsACZrYaMFcRPTEbSXtvWQCgjyUeDUA7BktACwjALk9xW2oyABsAUwA6bLIAcwAKeABKVjBgYBYOTx5dJMw0jPCcgqKy3iqauqEGuPUkbT4sIzMU9LC7TsKS8sC3PtqwAGYh7hUkFrbZrLyFspJVus3FbZ9d6fa5o+7S7zONoA)
 
-::: INFO
+::: tip 変数名
 サンプルコードでは変数名に `a` や `b` など単純なものを利用していますが、実際にはどのよう用途の変数なのかわかるような名前をつけるようにしましょう。
 
 以下の記事はPython向けですが、同様なことがJavaScriptでも言えます。
@@ -130,6 +148,17 @@ var c = 3;
 基本的には `const` を使い、あとから値を変更したい場合のみ `let` を使いましょう。
 
 また、 `var` は `let` に似ていますが細かい部分で異なります。 `const` や `let` がまだなかった頃は `var` が使われていましたが、現在では非推奨なものになります。詳しくは[var \- JavaScript \| MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/var)を参照してください。
+:::
+
+::: details Exam
+以下の指示に従い、JavaScriptを書け。
+
+1. 変数 `a1` に `1` を代入し、標準出力せよ。
+2. 変数 `a2` に $2 \times 3$ の結果を代入し、標準出力せよ。
+3. 変数 `a3` に `10` 、変数 `b3` に `5` を代入し、その2つを乗算した結果を標準出力せよ。
+4. 変数 `a4` に `1` 、変数 `b4` に `2` を代入し、その2つを加算した結果を変数 `a4` に代入しなおした結果を標準出力せよ。
+
+[解答例](https://www.typescriptlang.org/ja/play?filetype=js#code/PQKgBAjGLAUAxgewHYGcAuYCGUC8kBuBFVRAGwFMA6MxAcwAocBKI2UMAJmjiTUyzd83cAGYifUpRr0mnVrHZiexftlFh8EAAwSSmAEYb8AVj1py1WoywbwRhUpCxoYQKRKgY8iX4QMoMgGIZAewZAGAZAMCVAJyVAY7lAU0VAWAZACwZAEQZAMQZAMYZAeoZAaYZAYYY0wCSGQEolQApXQHUGQH0GQCCGQDsGQHMGQE0GQCAGbzAAC3R0AAdUAC5gYAATCgA3Clp2igAnKgBbRAAvAEsyMiwqRHG6YAArLH7EeFRgAHUKA2AAKSxBrABleHH59vRgACUKADMJimR4CmAAeTG4yw6DWBwAIhQMOMAK7wdDQ+7IOgAfSwqFQ8zoyCmX3Q3l4+jAAG1bBAADRgIwQAC6mmJOgpJmp5ikVlkpNcVNYYEUHAALCpKAIBVoWYYRVwiFgJVAANSS1SsmQ2PmsIA)
 :::
 
 ## 基本的なデータ型
@@ -170,6 +199,18 @@ const a = 1_000_000;
 ```
 
 また、より大きな数字を扱いたい場合には[BigInt \- JavaScript \| MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/BigInt)を参照してください。
+:::
+
+::: details Exam
+以下の値を変数に代入し、標準出力せよ。
+
+1. `1`
+2. `-10`
+3. `3.14`
+4. `299792458`
+5. `4700000000`
+
+[解答例](https://www.typescriptlang.org/ja/play?filetype=js#code/PQKgBAjGLAUAxgewHYGcAuYCGYC8kBuBFVRAGwFMA6MxAcwAosBKI2UMAJmjiTUwBGeMAFoIABiJ9SlGvQYDWsduADMPYvzDxhqqhAAsUkuWq1G8JSrAGN0zABNhnAJwuA7C84GArAA5jNFM5RgcrUBBYaDBAUiVAY8io8EBBC0AHU0AZBkByTUBZBkARBkALBizAewYwAAMAfRKwQHMGQC5lQHAlQGiGPMBaqMB-BkAQhkBNBkB5BkArBkAohkA-Bk7AIAZE3hJHKHxXFzLPTjLfAM0ZM3kHCHDwHztJsAphA3dxU7PTwLWQhgptyOj4xLBAcGMUwAsIwC5PQCCGQHvlQF+AqqjcarTAUaY2dwUFbSYLmG5bWBAA)
 :::
 
 ### String
@@ -232,6 +273,19 @@ const c = `${a} + ${b} = ${a + b}`; // 1 + 2 = 3
 ```
 
 詳しくは[テンプレートリテラル \(テンプレート文字列\) \- JavaScript \| MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Template_literals)を参照してください。
+:::
+
+::: details Exam
+以下の文字列を標準出力してください。
+
+※プログラミングでもは文章内で文字列であることを明示的に表すために `""` で囲んで表記することがあるため、最初と最後の `"` は不要です（例数字の1は `1` 、文字列の1は `"1"` ）。
+
+1. `"Hello, World!"`
+2. `"I'm Tom."`
+3. `"Alice said, "It looks like it's going to rain.""`
+4. 変数 `age` に `13` を代入し、 `age` を使って `"わたしは13歳です。"`
+
+[解答例](https://www.typescriptlang.org/ja/play?filetype=js#code/PQKgBAjGLAUAxgewHYGdEBsCmA6DiBzACgCIAJLDfAGjAHVEAnDAEwEISBKAblllDAAmaHCRpMufMRIBJAOQBbMABVECnF179wAZhEIU6bHkJE5AQQwBLeFjCoAhlZa1ZAFzD5EAa1Ser3nZWbgA6cn4EiFbIBGBuiGCMTsgacjx8oCCw0GCApEqAx5HZ4IBgCYDWDIDqDIBmDIBBDADyANKA5gyAmgyAQAxFooYSJtKWNnaOzrQh7p6IPn7WgWDB4WCR0bHxick4I5oZ4AAs+mKoHg4EdgC8kDq8e91SpIDxDID6DOWA9gwkYADUYId27ySAztYtrRttFkcgUimBAGMMgGeGQDrDIAbhkAPwyACYZAFcM4MAlwyAa4ZAEkMgH95QBiDIALBkAtVGAfwZACEMzUA8gyAKwZAFEMgD8GNodAziYzXAAG9yeABIAN6fAC+fza7PSQA)
 :::
 
 ### Boolean
@@ -327,15 +381,27 @@ console.log(!!a) // true
 ここでは詳しく触れませんが、それぞれ細かい違いがあります。それぞれ結果に微妙な違いがあるので、実際に試してみてください。
 :::
 
+::: details Exam
+以下の指示に従い値をキャストし、標準出力せよ。
+
+1. `1` を `String` にキャスト
+2. `"1"` を `Number` にキャスト
+3. `"false"` を `Boolean` にキャスト
+4. `"Infinity"` を `Number` にキャスト
+5. `"10e4"` を `Number` にキャスト
+
+[解答例](https://www.typescriptlang.org/ja/play?filetype=js#code/PQKgBAjGLAUAxgewHYGdEBsCmA6DiBzACgGUAXAJwEtliIBKegblllDACZo4k1Nd8xAHIBXALYAjLBSIAiCLMYs2IELGhhApEqBjyPXhALqaAHU0DmDICEGQNEMgZQZAFgyAZBkDxDIGkGQMYMgMwZAIgznALBqAIFUD2DGAABqKS0jgADgCGFKhYAJLIZET0gWDGgEEMgPfKgL8BxoCaDIBADHo8KOjYeIREIVIUEdGxCUnyisys7ADM3Ail-BXEAEKI-JHIcgBmkRixLcqgaho6ekEAhMupfoDpZoCbeYAhboBWDIDR6oCQmoDbxoB2DIBkKoBZ2oAo9oDp3oAK2oBJDO6AIr6A-gw+9oDaDID6DIBjDIB6hkA0wyAYYZAfkil1eGUBJVVrIJlMsIpZuAACzQnrlQRVcQ1OQJMY0KhkACeMza4AArFi+DjKtVpHIIAAGLDomZAA)
+:::
+
 ## 配列
 
 これまで紹介したデータ型は、1つの値を表すものでした。しかし、複数の値をまとめて扱いたい場合もあります。
 
 そういった場合は、「配列」を利用します。
 
-配列は `[値1, 値2, 値3, ...]` という形で表します。
+配列は `[値1, 値2, 値3, ...]` という形で表し、各値のことを「要素」と呼びます。
 
-配列内の任意の値のみを取り出したいときは `配列名[インデックス]` という形で取り出すことができます。この時注意すべきなのは、1つ目の値を取り出したいときは `配列名[0]` というように、インデックスは `0` から始まるということです。
+配列内の任意の値のみを取り出したいときは `配列名[インデックス]` という形で取り出すことができます。この時注意すべきなのは、1つ目の値を取り出したいときは `配列名[0]` というように、インデックスは `0` から始まるということです（「0番目の要素」などと言います）。
 
 ```js
 const a = [1, 2, 3];
@@ -381,6 +447,24 @@ const person = ["John", 20, true];
 ```
 
 しかし、これはどういった順番で値が入っているかプログラマー自身が把握しておく必要があるため推奨されません。こういったデータを管理したい場合は、次の「オブジェクト」を利用してください。
+:::
+
+::: details Exam
+以下の配列を作成し、標準出力せよ。
+
+1. 1~10の整数
+2. `"I am John"` を単語区切りにした配列
+3. 下の表を表す3行3列の2次元配列
+4. 3で作成した配列の0行目の配列
+5. 3で作成した配列の2行目の2列目の要素
+
+|  | A | B | C |
+| --- | --- | --- | --- |
+| 1 | 1 | 2 | 3 |
+| 2 | 4 | 5 | 6 |
+| 3 | 7 | 8 | 9 |
+
+[解答例](https://www.typescriptlang.org/ja/play?filetype=js#code/PQKgBAjGLAUAxgewHYGdEBsCmA6DiBzACgG0IAaMAJkoGZKAWSgVkoDZKB2SgDkoE5KEAAwBdAJQBuWLFDVocJGky58xEgCIAkhsoaAhgFtdYDQClEAC2QaJ02eFoKEKVABcwb-QCNsYALxgJLBgoUEU1HSi5CFhJExgrGBs0bGhJNxgfGD8qaLSSujYeIREXr5YUjJyDM6FKiXE5dgkYlUOiXWuDWplPi1UoiSDUkA)
 :::
 
 ## オブジェクト
@@ -474,6 +558,31 @@ console.log(b[0]); // "iPhone"
 ただし、この場合は `b.0` という書き方はできません。
 
 通常こういったことはしませんが、1つの知識として覚えておくとよいでしょう。
+:::
+
+::: details Exam
+以下の指示に従いオブジェクトを作成し、標準出力せよ。
+
+1. 以下の表の項目を持った社員を表すオブジェクト
+2. 以下の表の項目を持った社員リスト（2人分）を表す配列
+3. 2で作成した配列の0番目の社員の名前
+4. 2で作成した配列の1番目の社員の0番目の端末の名前
+
+社員情報
+| 項目 | データ型 |
+| --- | --- |
+| 名前 | テキスト |
+| 年齢 | 数値 |
+| 役員フラグ | 真偽値 |
+| 所持端末 | 常に2台 |
+
+端末情報
+| 項目 | データ型 |
+| --- | --- |
+| 名前 | テキスト |
+| メーカー | テキスト |
+
+[解答例](https://www.typescriptlang.org/ja/play?filetype=js#code/PQKgBAjGLAUAxgewHYGcAuYMEMBmuwBeMAb1jArGWwFsBTALjACIBBAGwEt47mAacpWwBzRiwDMABn6CKnVACFE2AE4ATALJ0aAIzoqm6FQFc6AymDV0AbtzqomAbVkXSL15Wr0mzAAqcADzp2MAAOMF8VRBkPDxpsAGt9HwBxRERhdl5zWIBfHI8yWNcvMWYNbHgddISIqJjiynikgxZWAAd2rOZ3SlyXAF0BXIBuBBRURCyAOnYMgAocfABKMdhQMAAmaDgkNEwl3FQiMGcLItjSnw47Bo8RMqk713klVU1tPVajUwLXK1sPAcp16hVBjSuLH8QRC4Ui0T+jSaiWSLDSGW6iLyWLBSI8kPKlWqiFq8OeeLAzVRbE63XBFn6xSGLnyLgu+NoZSUOnJQlEPk24l5ckUynUWl0qNw2HYqDM4IBdmBZzx7IpVE5qRl2ACAE9hY0qa1mABlWioYzIYQGhk41xqikEgAqAAtOMgEr5sGobbEjT4ADJ0ZCIazRel9cHMhmwAZjPaTGZzYSLdB4I6rWDrcDiHbjNBTOizBaHVCOSQDaalTPZkDkcCAUiVAMeR9d2E0LxZTpfLA0czFKzAGyyzGwALHmEx3k6n02WIJXFUCe1XOZnJ0mS2n8HPe8xF-ZBz2+wOhyMgA)
 :::
 
 ## 3つの処理
@@ -885,7 +994,6 @@ const result = sum(1, 2, 3); // `a` に `1` 、 `b` に `2` 、 `c` に `3` が�
 関数が値を返すには、 `return` を使います。また、関数内で `return` が呼ばれるとその時点で関数の処理を終了し、以降の処理は実行されません。
 
 ```js
-
 function sum(a, b, c) {
     return a + b + c; // return で `a + b + c` の結果を返している
     // これ以降に書かれた関数の処理は実行されない

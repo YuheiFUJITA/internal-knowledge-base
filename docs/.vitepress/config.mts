@@ -8,6 +8,9 @@ export default defineConfig({
       host: true,
     },
   },
+  markdown: {
+    math: true,
+  },
   base: "/internal-knowledge-base/",
   lang: "ja-JP",
   lastUpdated: true,
