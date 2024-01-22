@@ -70,13 +70,13 @@ console.log(1 + 2 * 3); // 7
 console.log((1 + 2) * 3); // 9
 ```
 
-[Go to Playgound](https://www.typescriptlang.org/play?filetype=js#code/PQKgBIBUqOneYsBQBjA9gOwM7IDYFMB0WyA5gBQCMYA1GGQJQDcYwwYATPPKGINh2McSaTLgLESrMAFoaDJizIcugdTk+CFBmz5CpceADMM5mABsC8IBM0lQPXCt5AAxM2BlgFZTYQA5KgTXlYqwRpFSMgcAUjB9RkN5ThAQeFgwQHBIwAdTQDsGQFAMwBkGQCEGQGiGQBYNQAgVQEAGZUBvhgtMwAlFQGsGQBkIwHiGQBiGYsBdBlTswAsGaDLeTMamwD8GQE0GQCAGePB2wBj9YsAz3UBpBkBIhkAwDJrACCioQFUGIbGJsEBlBlSi4rAAAx1w07Bq9a2W9q6as4pqIyvMje2R8d8rIU1RC82AkIrIwAB2UzgPanEi0d55Y5nOFXVKAWjkbp8dj9wIckbCgax4ddali2h1Ok9TroQe8sd8Jn5rADSOQqE4Qc4wABOIA)
+[Go to Playgound](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/PQKgBIBUqOneYsBQBjA9gOwM7IDYFMB0WyA5gBQCMYA1GGQJQDcYwwYATPPKGINh2McSaTLgLESrMAFoaDJizIcugdTk+CFBmz5CpceADMM5mABsC8IBM0lQPXCt5AAxM2BlgFZTYQA5KgTXlYqwRpFSMgcAUjB9RkN5ThAQeFgwQHBIwAdTQDsGQFAMwBkGQCEGQGiGQBYNQAgVQEAGZUBvhgtMwAlFQGsGQBkIwHiGQBiGYsBdBlTswAsGaDLeTMamwD8GQE0GQCAGePB2wBj9YsAz3UBpBkBIhkAwDJrACCioQFUGIbGJsEBlBlSi4rAAAx1w07Bq9a2W9q6as4pqIyvMje2R8d8rIU1RC82AkIrIwAB2UzgPanEi0d55Y5nOFXVKAWjkbp8dj9wIckbCgax4ddali2h1Ok9TroQe8sd8Jn5rADSOQqE4Qc4wABOIA)
 
 ::: details Deep Dive: 演算子の優先順位
 実際には他にもさまざなな演算子や順番のルールがあります。詳しくは[演算子の優先順位 \- JavaScript \| MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Operator_precedence)を参照してください。
 :::
 
-::: details Exam
+::: warning Exam
 以下の計算をJavaScriptで計算し、計算結果を標準出力せよ。
 
 1. $1 + 2 \times 3$
@@ -85,7 +85,7 @@ console.log((1 + 2) * 3); // 9
 4. $2^8$
 5. $\frac{3}{6} \div \frac{2}{10}$
 
-[解答例](https://www.typescriptlang.org/ja/play?filetype=js#code/PQKgBAjGLAUAxgewHYGdEBsCmA6DiBzACigGowAmaMAZgEoBuWWUS6OJNTXfYiABn5hgYIkSrl61CnUbNWNdghTpseQuOFgArHJbgALEs6qeGquAttL02zct15IELGqBSJUDHka-CBwY0AOpoAQUYDp3oD2DGAABs7hYIBJDID+8oASDIB+DICaDIBADN4cKtzqxBbgAByO+jrG2Wq8YooiAGx0WpoiArJAA)
+[解答例](https://www.typescriptlang.org/ja/play?noImplicitAny=false&filetype=js#code/PQKgBAjGLAUAxgewHYGdEBsCmA6DiBzACigGowAmaMAZgEoBuWWUS6OJNTXfYiABn5hgYIkSrl61CnUbNWNdghTpseQuOFgArHJbgALEs6qeGquAttL02zct15IELGqBSJUDHka-CBwY0AOpoAQUYDp3oD2DGAABs7hYIBJDID+8oASDIB+DICaDIBADN4cKtzqxBbgAByO+jrG2Wq8YooiAGx0WpoiArJAA)
 :::
 
 ## 変数
@@ -125,7 +125,7 @@ console.log(c); // 3
 console.log(d); // 3
 ```
 
-[Go to Playgound](https://www.typescriptlang.org/play?filetype=js#code/PQKgBIkJqA6mYAYIazIawY4EYmCSGQx3KFNFMIwAUAMYD2AdgM4AuY8YAvGGgNxFGiQywBGSqWACYseAsXLU6vJmCHtO4aHBIC4iMIAsGOPzCZABUqB070DqDIH0GQCQKOfIVKVaYErIYBqMLwVdlsACZrYaMFcRPTEbSXtvWQCgjyUeDUA7BktACwjALk9xW2oyABsAUwA6bLIAcwAKeABKVjBgYBYOTx5dJMw0jPCcgqKy3iqauqEGuPUkbT4sIzMU9LC7TsKS8sC3PtqwAGYh7hUkFrbZrLyFspJVus3FbZ9d6fa5o+7S7zONoA)
+[Go to Playgound](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/PQKgBIkJqA6mYAYIazIawY4EYmCSGQx3KFNFMIwAUAMYD2AdgM4AuY8YAvGGgNxFGiQywBGSqWACYseAsXLU6vJmCHtO4aHBIC4iMIAsGOPzCZABUqB070DqDIH0GQCQKOfIVKVaYErIYBqMLwVdlsACZrYaMFcRPTEbSXtvWQCgjyUeDUA7BktACwjALk9xW2oyABsAUwA6bLIAcwAKeABKVjBgYBYOTx5dJMw0jPCcgqKy3iqauqEGuPUkbT4sIzMU9LC7TsKS8sC3PtqwAGYh7hUkFrbZrLyFspJVus3FbZ9d6fa5o+7S7zONoA)
 
 ::: tip 変数名
 サンプルコードでは変数名に `a` や `b` など単純なものを利用していますが、実際にはどのよう用途の変数なのかわかるような名前をつけるようにしましょう。
@@ -150,7 +150,7 @@ var c = 3;
 また、 `var` は `let` に似ていますが細かい部分で異なります。 `const` や `let` がまだなかった頃は `var` が使われていましたが、現在では非推奨なものになります。詳しくは[var \- JavaScript \| MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/var)を参照してください。
 :::
 
-::: details Exam
+::: warning Exam
 以下の指示に従い、JavaScriptを書け。
 
 1. 変数 `a1` に `1` を代入し、標準出力せよ。
@@ -158,7 +158,7 @@ var c = 3;
 3. 変数 `a3` に `10` 、変数 `b3` に `5` を代入し、その2つを乗算した結果を標準出力せよ。
 4. 変数 `a4` に `1` 、変数 `b4` に `2` を代入し、その2つを加算した結果を変数 `a4` に代入しなおした結果を標準出力せよ。
 
-[解答例](https://www.typescriptlang.org/ja/play?filetype=js#code/PQKgBAjGLAUAxgewHYGcAuYCGUC8kBuBFVRAGwFMA6MxAcwAocBKI2UMAJmjiTUyzd83cAGYifUpRr0mnVrHZiexftlFh8EAAwSSmAEYb8AVj1py1WoywbwRhUpCxoYQKRKgY8iX4QMoMgGIZAewZAGAZAMCVAJyVAY7lAU0VAWAZACwZAEQZAMQZAMYZAeoZAaYZAYYY0wCSGQEolQApXQHUGQH0GQCCGQDsGQHMGQE0GQCAGbzAAC3R0AAdUAC5gYAATCgA3Clp2igAnKgBbRAAvAEsyMiwqRHG6YAArLH7EeFRgAHUKA2AAKSxBrABleHH59vRgACUKADMJimR4CmAAeTG4yw6DWBwAIhQMOMAK7wdDQ+7IOgAfSwqFQ8zoyCmX3Q3l4+jAAG1bBAADRgIwQAC6mmJOgpJmp5ikVlkpNcVNYYEUHAALCpKAIBVoWYYRVwiFgJVAANSS1SsmQ2PmsIA)
+[解答例](https://www.typescriptlang.org/ja/play?noImplicitAny=false&filetype=js#code/PQKgBAjGLAUAxgewHYGcAuYCGUC8kBuBFVRAGwFMA6MxAcwAocBKI2UMAJmjiTUyzd83cAGYifUpRr0mnVrHZiexftlFh8EAAwSSmAEYb8AVj1py1WoywbwRhUpCxoYQKRKgY8iX4QMoMgGIZAewZAGAZAMCVAJyVAY7lAU0VAWAZACwZAEQZAMQZAMYZAeoZAaYZAYYY0wCSGQEolQApXQHUGQH0GQCCGQDsGQHMGQE0GQCAGbzAAC3R0AAdUAC5gYAATCgA3Clp2igAnKgBbRAAvAEsyMiwqRHG6YAArLH7EeFRgAHUKA2AAKSxBrABleHH59vRgACUKADMJimR4CmAAeTG4yw6DWBwAIhQMOMAK7wdDQ+7IOgAfSwqFQ8zoyCmX3Q3l4+jAAG1bBAADRgIwQAC6mmJOgpJmp5ikVlkpNcVNYYEUHAALCpKAIBVoWYYRVwiFgJVAANSS1SsmQ2PmsIA)
 :::
 
 ## 基本的なデータ型
@@ -188,7 +188,7 @@ console.log(a + b) // 2.5
 console.log(a + c) // 0
 ```
 
-[Go to Playgound](https://www.typescriptlang.org/play?filetype=js#code/PQKgBILqaA6mh2DGAGBGeYTAFAGMD2A7AzgC5gCGYAvGIgNzrqhiDwOrAogHQCsKaWeRYAIwpVOdBoAKYmC3gBaZKgw4CxTMLm164aIAsGZjEAQUYHTvBbwLYANgFM257AHMAFGQDUggJRhgwMACZRmyChtSVgjEyV8C2tbRxcwTA8vMAAGIA)
+[Go to Playgound](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/PQKgBILqaA6mh2DGAGBGeYTAFAGMD2A7AzgC5gCGYAvGIgNzrqhiDwOrAogHQCsKaWeRYAIwpVOdBoAKYmC3gBaZKgw4CxTMLm164aIAsGZjEAQUYHTvBbwLYANgFM257AHMAFGQDUggJRhgwMACZRmyChtSVgjEyV8C2tbRxcwTA8vMAAGIA)
 
 ::: details Deep Dive: 大きな数字
 最近のJavaScriptでは、大きな数字を見やすくするために以下のような書き方も可能です。
@@ -201,7 +201,7 @@ const a = 1_000_000;
 また、より大きな数字を扱いたい場合には[BigInt \- JavaScript \| MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/BigInt)を参照してください。
 :::
 
-::: details Exam
+::: warning Exam
 以下の値を変数に代入し、標準出力せよ。
 
 1. `1`
@@ -210,7 +210,7 @@ const a = 1_000_000;
 4. `299792458`
 5. `4700000000`
 
-[解答例](https://www.typescriptlang.org/ja/play?filetype=js#code/PQKgBAjGLAUAxgewHYGcAuYCGYC8kBuBFVRAGwFMA6MxAcwAosBKI2UMAJmjiTUwBGeMAFoIABiJ9SlGvQYDWsduADMPYvzDxhqqhAAsUkuWq1G8JSrAGN0zABNhnAJwuA7C84GArAA5jNFM5RgcrUBBYaDBAUiVAY8io8EBBC0AHU0AZBkByTUBZBkARBkALBizAewYwAAMAfRKwQHMGQC5lQHAlQGiGPMBaqMB-BkAQhkBNBkB5BkArBkAohkA-Bk7AIAZE3hJHKHxXFzLPTjLfAM0ZM3kHCHDwHztJsAphA3dxU7PTwLWQhgptyOj4xLBAcGMUwAsIwC5PQCCGQHvlQF+AqqjcarTAUaY2dwUFbSYLmG5bWBAA)
+[解答例](https://www.typescriptlang.org/ja/play?noImplicitAny=false&filetype=js#code/PQKgBAjGLAUAxgewHYGcAuYCGYC8kBuBFVRAGwFMA6MxAcwAosBKI2UMAJmjiTUwBGeMAFoIABiJ9SlGvQYDWsduADMPYvzDxhqqhAAsUkuWq1G8JSrAGN0zABNhnAJwuA7C84GArAA5jNFM5RgcrUBBYaDBAUiVAY8io8EBBC0AHU0AZBkByTUBZBkARBkALBizAewYwAAMAfRKwQHMGQC5lQHAlQGiGPMBaqMB-BkAQhkBNBkB5BkArBkAohkA-Bk7AIAZE3hJHKHxXFzLPTjLfAM0ZM3kHCHDwHztJsAphA3dxU7PTwLWQhgptyOj4xLBAcGMUwAsIwC5PQCCGQHvlQF+AqqjcarTAUaY2dwUFbSYLmG5bWBAA)
 :::
 
 ### String
@@ -230,7 +230,7 @@ const b = 'World';
 console.log(a + b); // HelloWorld
 ```
 
-[Go to Playgound](https://www.typescriptlang.org/play?filetype=js#code/PQKgBI4aaOrajoSodgxgAYAkCmAbdB7RYTACgBjLAOwGcAXMAQzAF4wAiNTLJgbgINElgUQB1LACd0AE1z5iZKmABGDMAHJhY8cq49w0GIBgVQNcacQAq+gCBU8hEhSzpUAOmwBzABR0A1AoCUHMMGBhWbDUJIA)
+[Go to Playgound](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/PQKgBI4aaOrajoSodgxgAYAkCmAbdB7RYTACgBjLAOwGcAXMAQzAF4wAiNTLJgbgINElgUQB1LACd0AE1z5iZKmABGDMAHJhY8cq49w0GIBgVQNcacQAq+gCBU8hEhSzpUAOmwBzABR0A1AoCUHMMGBhWbDUJIA)
 
 ::: details Deep Dive: `"` と `'`
 `"` と `'` のどちらも使えると書きましたが、読みやすさやミスを無くすために基本的にはどちらかに統一するようにしましょう。
@@ -275,7 +275,7 @@ const c = `${a} + ${b} = ${a + b}`; // 1 + 2 = 3
 詳しくは[テンプレートリテラル \(テンプレート文字列\) \- JavaScript \| MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Template_literals)を参照してください。
 :::
 
-::: details Exam
+::: warning Exam
 以下の文字列を標準出力してください。
 
 ※プログラミングでもは文章内で文字列であることを明示的に表すために `""` で囲んで表記することがあるため、最初と最後の `"` は不要です（例数字の1は `1` 、文字列の1は `"1"` ）。
@@ -285,7 +285,7 @@ const c = `${a} + ${b} = ${a + b}`; // 1 + 2 = 3
 3. `"Alice said, "It looks like it's going to rain.""`
 4. 変数 `age` に `13` を代入し、 `age` を使って `"わたしは13歳です。"`
 
-[解答例](https://www.typescriptlang.org/ja/play?filetype=js#code/PQKgBAjGLAUAxgewHYGdEBsCmA6DiBzACgCIAJLDfAGjAHVEAnDAEwEISBKAblllDAAmaHCRpMufMRIBJAOQBbMABVECnF179wAZhEIU6bHkJE5AQQwBLeFjCoAhlZa1ZAFzD5EAa1Ser3nZWbgA6cn4EiFbIBGBuiGCMTsgacjx8oCCw0GCApEqAx5HZ4IBgCYDWDIDqDIBmDIBBDADyANKA5gyAmgyAQAxFooYSJtKWNnaOzrQh7p6IPn7WgWDB4WCR0bHxick4I5oZ4AAs+mKoHg4EdgC8kDq8e91SpIDxDID6DOWA9gwkYADUYId27ySAztYtrRttFkcgUimBAGMMgGeGQDrDIAbhkAPwyACYZAFcM4MAlwyAa4ZAEkMgH95QBiDIALBkAtVGAfwZACEMzUA8gyAKwZAFEMgD8GNodAziYzXAAG9yeABIAN6fAC+fza7PSQA)
+[解答例](https://www.typescriptlang.org/ja/play?noImplicitAny=false&filetype=js#code/PQKgBAjGLAUAxgewHYGdEBsCmA6DiBzACgCIAJLDfAGjAHVEAnDAEwEISBKAblllDAAmaHCRpMufMRIBJAOQBbMABVECnF179wAZhEIU6bHkJE5AQQwBLeFjCoAhlZa1ZAFzD5EAa1Ser3nZWbgA6cn4EiFbIBGBuiGCMTsgacjx8oCCw0GCApEqAx5HZ4IBgCYDWDIDqDIBmDIBBDADyANKA5gyAmgyAQAxFooYSJtKWNnaOzrQh7p6IPn7WgWDB4WCR0bHxick4I5oZ4AAs+mKoHg4EdgC8kDq8e91SpIDxDID6DOWA9gwkYADUYId27ySAztYtrRttFkcgUimBAGMMgGeGQDrDIAbhkAPwyACYZAFcM4MAlwyAa4ZAEkMgH95QBiDIALBkAtVGAfwZACEMzUA8gyAKwZAFEMgD8GNodAziYzXAAG9yeABIAN6fAC+fza7PSQA)
 :::
 
 ### Boolean
@@ -346,7 +346,7 @@ console.log(Boolean("")); // false
 console.log(Boolean("Hello")); // true
 ```
 
-[Go to Playgound](https://www.typescriptlang.org/play?filetype=js#code/PQKgBAcgrgtgRgUwE6GsGQtQyGOGQnQyAmGMJgAoAYwHsA7AZ1IBsEA6G0gcwApp5lWAiARm4CUAgNxhgwMLxIVqdRi3axESHr3oBWQSLES166VVoMmbDsp4AJBDSZbR4yAEMIB2cYVmuAFyRQEQ+11XI3lTJS4AM0caSn9tBwAGQkJQMABlHwBLcmZ0bDwCYLkTVgykbLZeAJ0wPm4i9zYyitY9aoc+DXqyQ2KFZpzWHz92iW5hhG6ZEJKBtiiYuMDahdj6lPAAIVIjR3I83HwiHrdQ1m3d8lYE0bBVhAazi7o91tuJx5LnhFfuOxr7p8FN9flYbKR-g4JkA)
+[Go to Playgound](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/PQKgBAcgrgtgRgUwE6GsGQtQyGOGQnQyAmGMJgAoAYwHsA7AZ1IBsEA6G0gcwApp5lWAiARm4CUAgNxhgwMLxIVqdRi3axESHr3oBWQSLES166VVoMmbDsp4AJBDSZbR4yAEMIB2cYVmuAFyRQEQ+11XI3lTJS4AM0caSn9tBwAGQkJQMABlHwBLcmZ0bDwCYLkTVgykbLZeAJ0wPm4i9zYyitY9aoc+DXqyQ2KFZpzWHz92iW5hhG6ZEJKBtiiYuMDahdj6lPAAIVIjR3I83HwiHrdQ1m3d8lYE0bBVhAazi7o91tuJx5LnhFfuOxr7p8FN9flYbKR-g4JkA)
 
 ::: details Deep Dive: 暗黙的なキャスト
 NumberとStringを `+` でつなげると、暗黙的にStringにキャストされて結合されます。
@@ -381,7 +381,7 @@ console.log(!!a) // true
 ここでは詳しく触れませんが、それぞれ細かい違いがあります。それぞれ結果に微妙な違いがあるので、実際に試してみてください。
 :::
 
-::: details Exam
+::: warning Exam
 以下の指示に従い値をキャストし、標準出力せよ。
 
 1. `1` を `String` にキャスト
@@ -390,7 +390,7 @@ console.log(!!a) // true
 4. `"Infinity"` を `Number` にキャスト
 5. `"10e4"` を `Number` にキャスト
 
-[解答例](https://www.typescriptlang.org/ja/play?filetype=js#code/PQKgBAjGLAUAxgewHYGdEBsCmA6DiBzACgGUAXAJwEtliIBKegblllDACZo4k1Nd8xAHIBXALYAjLBSIAiCLMYs2IELGhhApEqBjyPXhALqaAHU0DmDICEGQNEMgZQZAFgyAZBkDxDIGkGQMYMgMwZAIgznALBqAIFUD2DGAABqKS0jgADgCGFKhYAJLIZET0gWDGgEEMgPfKgL8BxoCaDIBADHo8KOjYeIREIVIUEdGxCUnyisys7ADM3Ail-BXEAEKI-JHIcgBmkRixLcqgaho6ekEAhMupfoDpZoCbeYAhboBWDIDR6oCQmoDbxoB2DIBkKoBZ2oAo9oDp3oAK2oBJDO6AIr6A-gw+9oDaDID6DIBjDIB6hkA0wyAYYZAfkil1eGUBJVVrIJlMsIpZuAACzQnrlQRVcQ1OQJMY0KhkACeMza4AArFi+DjKtVpHIIAAGLDomZAA)
+[解答例](https://www.typescriptlang.org/ja/play?noImplicitAny=false&filetype=js#code/PQKgBAjGLAUAxgewHYGdEBsCmA6DiBzACgGUAXAJwEtliIBKegblllDACZo4k1Nd8xAHIBXALYAjLBSIAiCLMYs2IELGhhApEqBjyPXhALqaAHU0DmDICEGQNEMgZQZAFgyAZBkDxDIGkGQMYMgMwZAIgznALBqAIFUD2DGAABqKS0jgADgCGFKhYAJLIZET0gWDGgEEMgPfKgL8BxoCaDIBADHo8KOjYeIREIVIUEdGxCUnyisys7ADM3Ail-BXEAEKI-JHIcgBmkRixLcqgaho6ekEAhMupfoDpZoCbeYAhboBWDIDR6oCQmoDbxoB2DIBkKoBZ2oAo9oDp3oAK2oBJDO6AIr6A-gw+9oDaDID6DIBjDIB6hkA0wyAYYZAfkil1eGUBJVVrIJlMsIpZuAACzQnrlQRVcQ1OQJMY0KhkACeMza4AArFi+DjKtVpHIIAAGLDomZAA)
 :::
 
 ## 配列
@@ -418,7 +418,7 @@ console.log(a[1]); // 2
 console.log(a[2]); // 3
 ```
 
-[Go to Playground](https://www.typescriptlang.org/play?filetype=js#code/MYewdgzgLgBAhjAvDA2gRgDQwExYMwC6A3AFCiQgA2ApgHSUgDmAFHAJREwD0XqmO+AiTLhoMAEZJUAIgAS1Sg2lZpAdRAAnSgBNpxERRr0mzcR268UchUpXqtuoQbHApKKBoCu1LADM4lBDU+uQQVHQMLMDmPKge3n4BQU6h4cYscCgADAQxvGjOaZGs6LmcsdiFRsWZ2GUWMHhAA)
+[Go to Playground](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/MYewdgzgLgBAhjAvDA2gRgDQwExYMwC6A3AFCiQgA2ApgHSUgDmAFHAJREwD0XqmO+AiTLhoMAEZJUAIgAS1Sg2lZpAdRAAnSgBNpxERRr0mzcR268UchUpXqtuoQbHApKKBoCu1LADM4lBDU+uQQVHQMLMDmPKge3n4BQU6h4cYscCgADAQxvGjOaZGs6LmcsdiFRsWZ2GUWMHhAA)
 
 また、配列の中に配列を入れる「2次元配列」というものもあります。以下の例は、Excelで言うところの2行2列の表を表しています。
 
@@ -435,7 +435,7 @@ console.log(a[0]); // [1, 2]
 console.log(a[0][0]); // 1
 ```
 
-[Go to Playground](https://www.typescriptlang.org/play?filetype=js#code/MYewdgzgLgBAhjAvDA2gKBp1BGANDAJgF1cMsUBmfAFiLSIG41RIQAbAUwDo2QBzABRwAlAxgB6cahR5CJVFRi06zcBHbdeguCgAMRURKkz8xVa049+QvUVuHJMbEA)
+[Go to Playground](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/MYewdgzgLgBAhjAvDA2gKBp1BGANDAJgF1cMsUBmfAFiLSIG41RIQAbAUwDo2QBzABRwAlAxgB6cahR5CJVFRi06zcBHbdeguCgAMRURKkz8xVa049+QvUVuHJMbEA)
 
 ::: details Deep Dive: データ型が混在した配列
 ここまでの例では、配列の中に同じデータ型の値しか入れていませんでしたが、実は異なるデータ型の値を入れることもできます。
@@ -449,7 +449,7 @@ const person = ["John", 20, true];
 しかし、これはどういった順番で値が入っているかプログラマー自身が把握しておく必要があるため推奨されません。こういったデータを管理したい場合は、次の「オブジェクト」を利用してください。
 :::
 
-::: details Exam
+::: warning Exam
 以下の配列を作成し、標準出力せよ。
 
 1. 1~10の整数
@@ -464,7 +464,7 @@ const person = ["John", 20, true];
 | 2 | 4 | 5 | 6 |
 | 3 | 7 | 8 | 9 |
 
-[解答例](https://www.typescriptlang.org/ja/play?filetype=js#code/PQKgBAjGLAUAxgewHYGdEBsCmA6DiBzACgG0IAaMAJkoGZKAWSgVkoDZKB2SgDkoE5KEAAwBdAJQBuWLFDVocJGky58xEgCIAkhsoaAhgFtdYDQClEAC2QaJ02eFoKEKVABcwb-QCNsYALxgJLBgoUEU1HSi5CFhJExgrGBs0bGhJNxgfGD8qaLSSujYeIREXr5YUjJyDM6FKiXE5dgkYlUOiXWuDWplPi1UoiSDUkA)
+[解答例](https://www.typescriptlang.org/ja/play?noImplicitAny=false&filetype=js#code/PQKgBAjGLAUAxgewHYGdEBsCmA6DiBzACgG0IAaMAJkoGZKAWSgVkoDZKB2SgDkoE5KEAAwBdAJQBuWLFDVocJGky58xEgCIAkhsoaAhgFtdYDQClEAC2QaJ02eFoKEKVABcwb-QCNsYALxgJLBgoUEU1HSi5CFhJExgrGBs0bGhJNxgfGD8qaLSSujYeIREXr5YUjJyDM6FKiXE5dgkYlUOiXWuDWplPi1UoiSDUkA)
 :::
 
 ## オブジェクト
@@ -487,7 +487,7 @@ console.log(person.name); // "John"
 console.log(person["age"]); // 20
 ```
 
-[Go to Playground](https://www.typescriptlang.org/play?filetype=js#code/MYewdgzgLgBADgUwE4XDAvDA3gKBvmMAQwFsEAuGAIgCkQALMKgGhgHo2YADYsrmQBYMgEQZAYgyBYFUCySoHMGbrQZN+wkYBIFQEkMgQu9AYC54CRAOYUYAJgAMrDt30JFoyTK6mbKjdoIwAlhACyRADaGoJABXBHNOLk8ffyc7bkCQpzUtHABfAG4cHFBIEH8AOl8QPQAKRBRwAEo09k4sXkM5RhYYK0pTVki-AOCEFKzwVHzCkrLUMDz6qprqOib+nKGi0uQxgG0qKyoAXSmLUyA)
+[Go to Playground](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/MYewdgzgLgBADgUwE4XDAvDA3gKBvmMAQwFsEAuGAIgCkQALMKgGhgHo2YADYsrmQBYMgEQZAYgyBYFUCySoHMGbrQZN+wkYBIFQEkMgQu9AYC54CRAOYUYAJgAMrDt30JFoyTK6mbKjdoIwAlhACyRADaGoJABXBHNOLk8ffyc7bkCQpzUtHABfAG4cHFBIEH8AOl8QPQAKRBRwAEo09k4sXkM5RhYYK0pTVki-AOCEFKzwVHzCkrLUMDz6qprqOib+nKGi0uQxgG0qKyoAXSmLUyA)
 
 ::: details Deep Dive: 配列とオブジェクトの組み合わせ
 配列とオブジェクトを組み合わせることもできます。
@@ -560,7 +560,7 @@ console.log(b[0]); // "iPhone"
 通常こういったことはしませんが、1つの知識として覚えておくとよいでしょう。
 :::
 
-::: details Exam
+::: warning Exam
 以下の指示に従いオブジェクトを作成し、標準出力せよ。
 
 1. 以下の表の項目を持った社員を表すオブジェクト
@@ -582,7 +582,7 @@ console.log(b[0]); // "iPhone"
 | 名前 | テキスト |
 | メーカー | テキスト |
 
-[解答例](https://www.typescriptlang.org/ja/play?filetype=js#code/PQKgBAjGLAUAxgewHYGcAuYMEMBmuwBeMAb1jArGWwFsBTALjACIBBAGwEt47mAacpWwBzRiwDMABn6CKnVACFE2AE4ATALJ0aAIzoqm6FQFc6AymDV0AbtzqomAbVkXSL15Wr0mzAAqcADzp2MAAOMF8VRBkPDxpsAGt9HwBxRERhdl5zWIBfHI8yWNcvMWYNbHgddISIqJjiynikgxZWAAd2rOZ3SlyXAF0BXIBuBBRURCyAOnYMgAocfABKMdhQMAAmaDgkNEwl3FQiMGcLItjSnw47Bo8RMqk713klVU1tPVajUwLXK1sPAcp16hVBjSuLH8QRC4Ui0T+jSaiWSLDSGW6iLyWLBSI8kPKlWqiFq8OeeLAzVRbE63XBFn6xSGLnyLgu+NoZSUOnJQlEPk24l5ckUynUWl0qNw2HYqDM4IBdmBZzx7IpVE5qRl2ACAE9hY0qa1mABlWioYzIYQGhk41xqikEgAqAAtOMgEr5sGobbEjT4ADJ0ZCIazRel9cHMhmwAZjPaTGZzYSLdB4I6rWDrcDiHbjNBTOizBaHVCOSQDaalTPZkDkcCAUiVAMeR9d2E0LxZTpfLA0czFKzAGyyzGwALHmEx3k6n02WIJXFUCe1XOZnJ0mS2n8HPe8xF-ZBz2+wOhyMgA)
+[解答例](https://www.typescriptlang.org/ja/play?noImplicitAny=false&filetype=js#code/PQKgBAjGLAUAxgewHYGcAuYMEMBmuwBeMAb1jArGWwFsBTALjACIBBAGwEt47mAacpWwBzRiwDMABn6CKnVACFE2AE4ATALJ0aAIzoqm6FQFc6AymDV0AbtzqomAbVkXSL15Wr0mzAAqcADzp2MAAOMF8VRBkPDxpsAGt9HwBxRERhdl5zWIBfHI8yWNcvMWYNbHgddISIqJjiynikgxZWAAd2rOZ3SlyXAF0BXIBuBBRURCyAOnYMgAocfABKMdhQMAAmaDgkNEwl3FQiMGcLItjSnw47Bo8RMqk713klVU1tPVajUwLXK1sPAcp16hVBjSuLH8QRC4Ui0T+jSaiWSLDSGW6iLyWLBSI8kPKlWqiFq8OeeLAzVRbE63XBFn6xSGLnyLgu+NoZSUOnJQlEPk24l5ckUynUWl0qNw2HYqDM4IBdmBZzx7IpVE5qRl2ACAE9hY0qa1mABlWioYzIYQGhk41xqikEgAqAAtOMgEr5sGobbEjT4ADJ0ZCIazRel9cHMhmwAZjPaTGZzYSLdB4I6rWDrcDiHbjNBTOizBaHVCOSQDaalTPZkDkcCAUiVAMeR9d2E0LxZTpfLA0czFKzAGyyzGwALHmEx3k6n02WIJXFUCe1XOZnJ0mS2n8HPe8xF-ZBz2+wOhyMgA)
 :::
 
 ## 3つの処理
@@ -600,11 +600,11 @@ const b = 2;
 const c = a + b; // 3
 
 /* `e` はまだ宣言されていないので、ここでは利用できない */
-const d = e + 1; // [!code error] // [ERR]: Cannot access 'e' before initialization 
+const d = e + 1; // [!code error] [ERR]: Cannot access 'e' before initialization 
 const e = 1;
 ```
 
-[Go to Playground](https://www.typescriptlang.org/play?filetype=js#code/MYewdgzgLgBAhjAvDAjAbgFCkrARkmAJkwHoAqGQZQZLAIhkCiGQWSVBzBhgAM5WZALBjd08BkGQMXagACjAqgyAYhkBmDIBEGQNEMgOwYmgQAZqTQJRKgClcmgWQZZMMiSzhoMYAQQBqGLjQwSJGAGYMGcmwCmnQPYMgPwZABgwiEjKAVgzSiiqUTF6aOqH6htgmACYE7jBW6HYOANoAhKBJae4ATsUgxQC6WTDZAKIASvUVAFwwAMJwYGAgsHDAwO4QEDAA5O4j1u4AZuVpAJZgc1BzcAA2cwBecMvgMEY4MGnI6EA)
+[Go to Playground](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/MYewdgzgLgBAhjAvDAjAbgFCkrARkmAJkwHoAqGQZQZLAIhkCiGQWSVBzBhgAM5WZALBjd08BkGQMXagACjAqgyAYhkBmDIBEGQNEMgOwYmgQAZqTQJRKgClcmgWQZZMMiSzhoMYAQQBqGLjQwSJGAGYMGcmwCmnQPYMgPwZABgwiEjKAVgzSiiqUTF6aOqH6htgmACYE7jBW6HYOANoAhKBJae4ATsUgxQC6WTDZAKIASvUVAFwwAMJwYGAgsHDAwO4QEDAA5O4j1u4AZuVpAJZgc1BzcAA2cwBecMvgMEY4MGnI6EA)
 
 ::: details Deep Dive: 巻き上げ（Hoisting）
 上の例で「まだ宣言されていないものは利用できない」と書きましたが、特定の条件を満たす場合のみ、宣言前に利用できるようになります。
@@ -615,11 +615,8 @@ const e = 1;
 console.log(a); // エラーにはならないが、まだこの時点で変数に値は代入されていないので未定義を意味する `undefined` になる
 var a = 1;
 
-console.log(b); // [!code error] // [ERR]: Cannot access 'b' before initialization 
+console.log(b); // [!code error] [ERR]: Cannot access 'b' before initialization 
 const b = 1;
-
-console.log(); // [!code error] // [ERR]: Cannot access 'b' before initialization 
-let c = 1;
 
 sayHello(); // この時点では `sayHello()` は宣言していないが、巻き上げによって実行できる
 function sayHello() {
@@ -628,6 +625,21 @@ function sayHello() {
 ```
 
 詳しくは[Hoisting \(巻き上げ、ホイスティング\) \- MDN Web Docs 用語集: ウェブ関連用語の定義 \| MDN](https://developer.mozilla.org/ja/docs/Glossary/Hoisting)を参照してください。
+:::
+
+::: warning Exam
+以下のソースコードが正常に実行されるよう、順番を並び替えよ。
+
+```js
+const a = 1;
+console.log(a + c);
+const b = a + c;
+console.log(b);
+const c = 2;
+```
+
+[解答例](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/MYewdgzgLgBAhjAvDAjAbgFCkrYSYBMm2EIANgKYB0ZIA5gBQIDUMwAlMeNDAEb4s2XSOWq1GvTkA)
+
 :::
 
 ### 分岐処理
@@ -681,7 +693,7 @@ if (a % 3 == 0 || String(a).includes("3")) {
 }
 ```
 
-[Go to Playground](https://www.typescriptlang.org/play?filetype=js#code/MYewdgzgLgBAhjAvDAjABgNwCgsHoBUMg4pqAOpoNIMgbgrmDmDIGeKgYC6BJDIGBKgigyDRDICwagECoz65YAlgDMYACgQBSGACYkyNAEoYAbxi5cMAAZwtMRjOqAnJUDGDIH0GQJrygKIZAMgza0ewFYMgSIZtUAE4BXAKZasMAJhQSBAAG28AOlCQAHMxACIqeMVsAF8Yb1CIb1V1TUBdBkAYhkBTuUA0TX9A4IgwyOi4+NJktJwCGEBja0A7BnJAApiusjQ6JjYuXn4hUQkYAD4YJVyNbV0YOy0HGEAIhitAck1AWQZAEQYXNy9fCoCqmqjYhM6SJqx0zOyYEXEEAB5Z5TUFnT0Vtc2gHgdQCqDAdXFoPD4-IEguBquFLvVercUvcMlkct8CiVyjDzgi6gk0HdUi1CABmDqAWAUSIALBnJNkAG3KAeQZAEJmgAMGViABYZANUMgGsGRwjPgCF6TaTk+SzGAAH2lMAAyh5BGA4nBFBFlcBQp4ACbeCAJcnJL6nWEhAlXeK8gXsElAA)
+[Go to Playground](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/MYewdgzgLgBAhjAvDAjABgNwCgsHoBUMg4pqAOpoNIMgbgrmDmDIGeKgYC6BJDIGBKgigyDRDICwagECoz65YAlgDMYACgQBSGACYkyNAEoYAbxi5cMAAZwtMRjOqAnJUDGDIH0GQJrygKIZAMgza0ewFYMgSIZtUAE4BXAKZasMAJhQSBAAG28AOlCQAHMxACIqeMVsAF8Yb1CIb1V1TUBdBkAYhkBTuUA0TX9A4IgwyOi4+NJktJwCGEBja0A7BnJAApiusjQ6JjYuXn4hUQkYAD4YJVyNbV0YOy0HGEAIhitAck1AWQZAEQYXNy9fCoCqmqjYhM6SJqx0zOyYEXEEAB5Z5TUFnT0Vtc2gHgdQCqDAdXFoPD4-IEguBquFLvVercUvcMlkct8CiVyjDzgi6gk0HdUi1CABmDqAWAUSIALBnJNkAG3KAeQZAEJmgAMGViABYZANUMgGsGRwjPgCF6TaTk+SzGAAH2lMAAyh5BGA4nBFBFlcBQp4ACbeCAJcnJL6nWEhAlXeK8gXsElAA)
 
 ::: details Deep Dive: if文のネスト
 if文の中にif文を書くこともできます。
@@ -751,7 +763,7 @@ if (a >= 5) {
 }
 ```
 
-[Go to Playground](https://www.typescriptlang.org/play?filetype=js#code/MYewdgzgLgBAhjAvDArAbgFAYJYDMYAUCiyKAlDAN4Yy0yiQgA2ApgHRMgDmBARHIHsGFIHMGQJoMvMpgC+MFkwgsqNOgwjN2nHvyHCBgIQZAUQyA-BkDaDIGSGCdKx5CCAISkK1OvXBrWHbn0Ej9x85YYMnIKSi6q6p5aPmKBUtb4RDAAPKhOyrQRHpreQoARDAaA8DqAqgyAIgyxkkGy8orOKm6ROdoogKdygFByYoBADHEJtimOYfWM2V7NLYDQchXS1aF1mQ0j0fkGgOSagLIM5eKV8TiJCAB8aYPzwxqjPgXrm3EztRmup1G5rZNbVrt9+wNzD+5nS60Om8qiE7uEFv9ngUStdtkA)
+[Go to Playground](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/MYewdgzgLgBAhjAvDArAbgFAYJYDMYAUCiyKAlDAN4Yy0yiQgA2ApgHRMgDmBARHIHsGFIHMGQJoMvMpgC+MFkwgsqNOgwjN2nHvyHCBgIQZAUQyA-BkDaDIGSGCdKx5CCAISkK1OvXBrWHbn0Ej9x85YYMnIKSi6q6p5aPmKBUtb4RDAAPKhOyrQRHpreQoARDAaA8DqAqgyAIgyxkkGy8orOKm6ROdoogKdygFByYoBADHEJtimOYfWM2V7NLYDQchXS1aF1mQ0j0fkGgOSagLIM5eKV8TiJCAB8aYPzwxqjPgXrm3EztRmup1G5rZNbVrt9+wNzD+5nS60Om8qiE7uEFv9ngUStdtkA)
 
 また、条件が複数ある場合は `&&` や `||` などの「論理演算子」というものを使います。
 
@@ -777,7 +789,7 @@ if (a < 0 || a > 10) {
 }
 ```
 
-[Go to Playground](https://www.typescriptlang.org/play?filetype=js#code/MYewdgzgLgBAhjAvDArAbgFAYPQCoaAOpoGbag5gyAAUYGIMMADDADzIIMwCMtgFgyAwKoBoMMu2GAJYAzGAApazBADJp8esjYBKGAG8MMTTFCQQAGwCmAOj0gA5mIBEcQPYM1QKdygKDlAgAyBpBkAmDM7b3A0HIlAmgyWSpgAvjAGehAGahpaOhD6xqYW1naAEQyAUQyA8DqAqgyAIgyuXtSZgOSagLIMeQFBoVh4hKSU8nQ0MIB+DID6DDbyAHysHDx8AiLiTC0APmM9fSrqWtrgCYYm5la2xdn5hWylFVXBGGERUTFz8YnLKWtObp7efoH7IUA)
+[Go to Playground](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/MYewdgzgLgBAhjAvDArAbgFAYPQCoaAOpoGbag5gyAAUYGIMMADDADzIIMwCMtgFgyAwKoBoMMu2GAJYAzGAApazBADJp8esjYBKGAG8MMTTFCQQAGwCmAOj0gA5mIBEcQPYM1QKdygKDlAgAyBpBkAmDM7b3A0HIlAmgyWSpgAvjAGehAGahpaOhD6xqYW1naAEQyAUQyA8DqAqgyAIgyuXtSZgOSagLIMeQFBoVh4hKSU8nQ0MIB+DID6DDbyAHysHDx8AiLiTC0APmM9fSrqWtrgCYYm5la2xdn5hWylFVXBGGERUTFz8YnLKWtObp7efoH7IUA)
 
 ::: details Deep Dive: 比較演算子の優先順位
 先ほど `0 <= a && a <= 10` （ `a` は `5` ）という例を出しましたが、よくあるミスとしてこれを `0 <= a <= 10` と書いてしまうというものがあります。
@@ -801,6 +813,45 @@ const b = 11;
 console.log(0 <= b && b <= 10);
 console.log(0 <= b <= 10);
 ```
+
+:::
+
+::: warning Exam
+以下のソースコードのコメントに従い、条件式・if文を書け。
+
+```js
+const a = 10;
+if (/* aが10未満 */) {
+    console.log("aは10未満です");
+} else {
+    console.log("aは10以上です");
+}
+
+const b = 30;
+if (/* bが10以上かつ20未満 */) {
+    console.log("bは10以上かつ20未満です");
+} else {
+    console.log("bは10未満または20以上です");
+}
+
+const c = 30;
+if (/* cが10未満または20以上 */) {
+    console.log("cは10未満または20以上です");
+} else {
+    console.log("cは10以上かつ20未満です");
+}
+
+const d = 30;
+/**
+ * 以下のルールにしたがって標準出力するようなif文を書け。
+ * - dが3の倍数のとき、"dは3の倍数です"
+ * - dが5の倍数のとき、"dは5の倍数です"
+ * - dが3の倍数かつ5の倍数のとき、"dは3の倍数かつ5の倍数です"
+ * - それ以外のとき、"dは3の倍数でも5の倍数でもありません"
+ */
+```
+
+[解答例](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/MYewdgzgLgBAhjAvDAjABgNwCgCWAzGACgQB5U0BKGAbyxnplEhABsBTAOhZAHNCAiOIHsGdICpzQAF2gcwZAmgz8K2AL4w2LCGxp0GTCK07c+gkWkCncoCg5GXMVYs22ACMkMAMyZcBQuhglkDgGS+YBzIAJkoNBkZwHXYuXgE7IzNAaQZAEwZQiQt5LCUVNXCtKN1YgwSxcUA-BkB9BiFQs0yrGyjYYEcXbHwiFrJPAB8emFCvZGAqWgjtIv0BYCMJKpqTc1ksnNV1MYLmGKn+GfRktLQM5YbbGAATVtcAegAqW7pbmGNAaDlAOwZAa4ZAH4YPwGsGQHUGSqAGQZAMYMgDMGQCYVoA0u0AX4qAbKVpIBohkAEQyAMQZAFYM+EA4aaAJIZAB9mgEUGQBADI8YABaC5ApxvQCwCoAHUzegAsGQCyDIBABn45yE1PpFlJFPOQIArLSGSz2ZzhTzZHzKdy6alJaK2RyuSKFSLeTAnhTALoMgBiGYyANE0mcrOXLJIAghkVlsAQgyAKIZyoBtBkAyQz8R7XNxES4AUmcSGQaBg-guMF9gv9MDC1Bg12uMBVcvV9P4QhVKEV-EZgBgVQAaDIBlBkZ6LeklZMAABj7UOHEAGyzBLYBja3+gBEGGSaegTbZxBNqlLWk7ZZRrGAdQiVpwRqPtyJbPTds0agerPKjyvVgOjaeducGCWLyyD3LrLeFLu7oT9g8KIA)
 
 :::
 
@@ -835,7 +886,7 @@ for (let i = 0; i < a.length; i++) {
 }
 ```
 
-[Go to Playground](https://www.typescriptlang.org/ja/play?filetype=js#code/MYewdgzgLgBAhjAvDA2gRgDQwExYMxYAsWArFgGxYDsWAHFgJxZoAMAugNwBQXAZiACcYACgA2AU1gBLJDBYcYMgDzwAdBLABzKAAsFUgNQGAlDADeXGFZihIICepCbhcFFLbHuAXyA)
+[Go to Playground](https://www.typescriptlang.org/ja/play?noImplicitAny=false&filetype=js#code/MYewdgzgLgBAhjAvDA2gRgDQwExYMxYAsWArFgGxYDsWAHFgJxZoAMAugNwBQXAZiACcYACgA2AU1gBLJDBYcYMgDzwAdBLABzKAAsFUgNQGAlDADeXGFZihIICepCbhcFFLbHuAXyA)
 
 これを実行すると、結果的に以下のようになります。
 
@@ -905,6 +956,76 @@ for (let i = 0; i < a.length; i++) {
 
 :::
 
+::: details Deep Dive: `while` / `do-while` 文
+反復処理には `for` 文以外にも `while` 文や `do-while` 文というものがあります。
+
+以下の `for` / `while` / `do-while` はすべて同じ結果になります。
+
+```js
+const a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+for (let i = 0; i < a.length; i++) {
+    console.log(a[i]);
+}
+
+let j = 0;
+while(j < a.length) {
+    console.log(a[j]);
+    j++;
+}
+
+let k = 0;
+do {
+    console.log(a[k]);
+    k++;
+} while(k < a.length);
+```
+
+`while` と `do-while` の違いは、 `while` が先に条件式が評価されるのに対して、 `do-while` はブロック内の処理が実行されたあとに条件式が評価されます。
+:::
+
+::: details Deep Dive: 配列に対する反復処理
+配列に対して反復処理を行う場合、よりスマートな書き方として `forEach` や `map` というものがあります。
+
+これらは配列に実装されているメソッドであり、以下のソースコードはすべて同じ結果になります。
+
+```js
+const a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+for (let i = 0; i < a.length; i++) {
+    console.log(a[i]);
+}
+
+a.forEach(function(value) {
+    console.log(value);
+})
+
+a.map(function(value) {
+    console.log(value);
+})
+```
+
+具体的な使い方や違いについては、 [Array\.prototype\.map\(\) \- JavaScript \| MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/map) や [Array\.prototype\.forEach\(\) \- JavaScript \| MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) を参照してください。
+:::
+
+::: warning Exam
+以下の処理を反復処理を使って書け。
+
+1. 1から100までの数字を順番に出力する
+2. 1から100までの数字のうち、3の倍数のみを順番に出力する
+3. 以下のような2次元配列の値を順にすべて出力する
+
+```js
+const arr = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+];
+```
+
+[回答例](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/PQKgBAjGLAUAZgewE5gBQBsCmAXMBLMAXkgG4CwAeEiABlvPwGomBKMAb1jDAGNEAdgGdE2AHQZEAczT5WpWAF9YsUGABM0OElSZcFGoyo16jFuy4988WWACkYAMzEStC9x59BI8ZJlyFHmVlVXBnGFh+YTwAQ2RUEgBtDx5EiAAaDUzHAF10lLBEgBZMgFZMgDY8gsSAdkyADkyATmqchR10bDxCVyNKMDjkCSwBKRwACzM2Tg9OvTwAK2IwBjBlgaHE-ByRscnyRfNZzy9hUSwJaTQtncTFnPkPYJU1QFIlQGPIrVghsR0AURivAmaHgAFcBLwcPhBGhkIgAO7uHjwhF-FCA4GgiFQmECNAANxiGDBWGRniiPkufkJxNJTyCT0U8iAA)
+:::
+
 ## 関数
 
 ある程度プログラムを書いていくと、同じような処理が何箇所も出てきたり、ある程度まとまった処理をひとまとめにしたくなることがあります。
@@ -940,7 +1061,7 @@ for (let i = 1; i <= 100; i++) {
 }
 ```
 
-[Go to Playground](https://www.typescriptlang.org/ja/play?filetype=js#code/PQKhCgQAgAQBwIYCcEFsoG8B2BXVAjAUyQF8oFJhwAzHLAYwBcBLAeyymuYC9uAhHLwAUCAJSZwUKVGbURUAKRQAzFAC8aqAAYoAMl3lFUAKzrNW8RknSbSQoxxIOAIi698g7s4Dc1qWUIAGwBnQhk5BCNVDW1LPxsoOwcnKFceL18bAJCw2XklUxiLCQTpJMcXD14feOzQktLE+wryTOkScA6aViQoIUD7GXUoAEZvIYAeTRGtLXHmAGoFuJt6dmDWAYA6QNYAcyE3fk8hZlFRXxIgA)
+[Go to Playground](https://www.typescriptlang.org/ja/play?noImplicitAny=false&filetype=js#code/PQKhCgQAgAQBwIYCcEFsoG8B2BXVAjAUyQF8oFJhwAzHLAYwBcBLAeyymuYC9uAhHLwAUCAJSZwUKVGbURUAKRQAzFAC8aqAAYoAMl3lFUAKzrNW8RknSbSQoxxIOAIi698g7s4Dc1qWUIAGwBnQhk5BCNVDW1LPxsoOwcnKFceL18bAJCw2XklUxiLCQTpJMcXD14feOzQktLE+wryTOkScA6aViQoIUD7GXUoAEZvIYAeTRGtLXHmAGoFuJt6dmDWAYA6QNYAcyE3fk8hZlFRXxIgA)
 
 ::: details Deep Dive: jsdoc
 特殊なコメントの書き方として、jsdocというものがあります。
@@ -966,6 +1087,34 @@ function sum(a, b, c) {
 }
 ```
 
+:::
+
+:::details Deep Dive: アロー関数式
+関数定義には、アロー関数式というものもあります。
+
+以下の2つの `sum()` はどちらも同じ結果を返します。
+
+```js
+function sum1(arr) {
+    let total = 0;
+    for (let i = 0; i < arr.length; i++) {
+        total += arr[i];
+    }
+    return total;
+}
+console.log(sum1([1, 2, 3]));
+
+const sum2 = (arr) => {
+    let total = 0;
+    for (let i = 0; i < arr.length; i++) {
+        total += arr[i];
+    }
+    return total;
+}
+console.log(sum2([1, 2, 3]));
+```
+
+厳密には細かい部分で違いがありますが、詳しくは [アロー関数式 \- JavaScript \| MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/Arrow_functions) を参照してください。
 :::
 
 ### 引数
@@ -1001,3 +1150,140 @@ function sum(a, b, c) {
 
 const result = sum(1, 2, 3); // `sum()` は 6を返すので、その値を `result` に代入している
 ```
+
+::: warning Exam
+以下のような関数を定義せよ。
+
+1. 文字列を受け取り、 `"こんにちは、{受け取った文字列}さん"` という文字列を標準出力する関数
+2. 2つの引数を受け取り、その合計値を返す関数
+3. 2つの引数を受け取り、そのうち大きい方の値を返す関数
+4. 数値の配列を受け取り、すべての値が2倍された配列を返す関数
+5. 数値の配列を受け取り、奇数だけを取り出した配列を返す関数
+
+[回答例](https://www.typescriptlang.org/play?noImplicitAny=false&noImplicitAny=false&filetype=js#code/PQKgBAjGLAUAZgVwHYGMAuBLA9ssBnAQwE8AKZQgWwFMBKMAb1jDFV32wBtqA6T7AOakABoGUGQMkMgawZAhgyB7BkCADABIGFGgF9AqgzjhtANyw1sWKDAAmaHCRosuMIQAm90oQA0YAEb0mLAE7V0iD54hGAA1B76hsbgAMwWCCgYOHhslAAOhH7Obp6MzGCY8GDOYAA8Hl75vv6BeO76LGpg1Jz41AVFpO5ldpUs1QFBdg1gTS1tef1gfoPBI4ZRoCDM4ICkSoDHkStgW6KAMQyygJBygKAZgCj2gOnegAragBYMgCIMgGIMgEEMgHYMgEkMgJRKgBSugOoMgPoMgIsMgH6GQA-DIBnhkA5gyATQZAEAMK0siRsKWw6Uy1AAgshsOgABbUHzZCqTaY1IYhcrdAD8HjAAC5hgYjCYACzxKxJWz2bCIdzcZw+Hx9VjsdBgDlc7iovlgAC8YAA2gBdEbwbA+YrcYWYaVgAAMugKPUyPj41GQAmxeswoVCApYou5aL5ssw8q1hqdLvApnm+RmtRFnPtEp8kQZIGW0DAGy2W0AsomAdCUnoAQFUAgZGAAl9JIA-7S+gDMGQBnioAwFxeEMA0QyAFg1ABAqsjAwkohDSpFowjAgBkGQCQ5oBOpUhMJZ8OS-rFaIx2NxvP5hN9JL5PFr9dZCNIADdCJxEHRCQM-UuV+1PfNaPTomAAKw96x93CcYgAeUco4FbGQ+GF2EcQa1CpG6rAACstbr8sqeJfpqMq6vq5SGsaprmgUVo2h0xRus6YAAKRmGAACEoHwSwL72EGsrfi6MpIYqVT9N+VojI0+SGBuQx4UGIbROGaybBGsYJoAJAqZjmgCrDIAxQyANcMAKAFcMIKAA0MLyADIRNw-DcFbyNW8CYJw6Ajo2LYdl2sIJGetgXter5DjieKGgKE7BFOKlqSOc7JIuy6rvBllgFuq6oehWE6nuIZAA)
+:::
+
+## クラス
+
+ここまででデータ型や変数、関数などについて学びましたが、これらを組み合わせてより複雑なデータを扱うためには、クラスというものを利用します。
+
+### クラスの定義方法
+
+まずは、基本的なクラスの定義方法を見ていきます。
+
+クラスを新しく定義するには、`class`キーワードを使います。
+
+```js
+class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    greet() {
+        console.log(`こんにちは、私の名前は${this.name}です。`);
+    }
+}
+```
+
+[Go to Playground](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/MYGwhgzhAEAKCmAnCB7AdtA3gKGn6w6EALogK7DEqIAUaYAtvADTRgDm8AlFrvv8QAWASwgA6ek2gBeaJPgBuPvzxDRYjvBltOS-gF9sy6O0Tx4xGjxwr8hNKhDwxIFOxoADQMoMgZIZA1gyAhgyA9gyAgAyAg56AdgyAsCqAskpBACSYauLy+oDmDICaDIBADB5ceviG+kA)
+
+こうすることで、新しく `Person` というデータ型を作成することができます。
+
+### `new` キーワード
+
+クラスを使って新しいオブジェクト（変数）を作成するには、`new`キーワードを使います。
+
+```js
+const person = new Person("山田太郎", 30);
+```
+
+[Go to Playground](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/MYGwhgzhAEAKCmAnCB7AdtA3gKGn6w6EALogK7DEqIAUaYAtvADTRgDm8AlFrvv8QAWASwgA6ek2gBeaJPgBuPvzxDRYjvBltOS-gF9sy6O0Tx4xGjxwr8hNKhDwxIFOxoADQMoMgZIZA1gyAhgyA9gyAgAyAg56AdgyAsCqAskpBACSYauLy+oDmDICaDIBADB5ceviGhtj2JNAADkioGLJo8ADucJXoNABEgI46gAyugFSagHMJLawAzAAMeUA)
+
+これで `person` という変数に、`Person` 型の値を代入することができます。
+
+このとき、 `person` は `Person` クラスのインスタンスと呼ばれます。
+
+::: details Deep Dive: `Array` クラス
+今まで配列は `const arr = [1, 2, 3]` のように定義してきましたが、これは `Array` クラスを使って以下のように書くこともできます。
+
+```js
+const arr = new Array(1, 2, 3);
+```
+
+:::
+
+### プロパティ
+
+クラス内で定義される変数をプロパティと言います。上記の例で言うと、`name`と`age`がプロパティにあたります。これらはクラスの各インスタンスに紐づいた変数のようなものです。
+
+プロパティには、以下のようにしてアクセスできます。
+
+```js
+console.log(person.name); // 山田太郎
+```
+
+[Go to Playground](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/MYGwhgzhAEAKCmAnCB7AdtA3gKGn6w6EALogK7DEqIAUaYAtvADTRgDm8AlFrvv8QAWASwgA6ek2gBeaJPgBuPvzxDRYjvBltOS-gF9sy6O0Tx4xGjxwr8hNKhDwxIFOxoADQMoMgZIZA1gyAhgyA9gyAgAyAg56AdgyAsCqAskpBACSYauLy+oDmDICaDIBADB5ceviGhtj2JNAADkioGLJo8ADucJXoNABEgI46gAyugFSagHMJLawAzAAMeUYlKE4ubjQVyOgSjNwK0AD0K9CdvUA)
+
+配列の反復処理で `.length` というものが出てきましたが、これは配列の要素数が保存されたプロパティです。
+
+### メソッド
+
+クラス内で定義される関数をメソッドと言います。これにより、クラスの振る舞いを定義できます。
+
+```js
+person.greet(); // こんにちは、私の名前は山田太郎です。
+```
+
+[Go to Playground](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/MYGwhgzhAEAKCmAnCB7AdtA3gKGn6w6EALogK7DEqIAUaYAtvADTRgDm8AlFrvv8QAWASwgA6ek2gBeaJPgBuPvzxDRYjvBltOS-gF9sy6O0Tx4xGjxwr8hNKhDwxIFOxoADQMoMgZIZA1gyAhgyA9gyAgAyAg56AdgyAsCqAskpBACSYauLy+oDmDICaDIBADB5ceviGhtj2JNAADkioGLJo8ADucJXoNABEgI46gAyugFSagHMJLawAzAAMeUYlKE4ubjQVyOgSjNwK0AD0K9CdvUazVWKm5pZ5q+u+gaGRsUGbPZlZQA)
+
+配列のDeep Diveに `map()` や `filter()` が出てきましたが、これらは配列のメソッドです。
+
+### 代表的な標準のクラス
+
+ここまででクラスを新しく作成する方法を学びましたが、JavaScriptにはすでにいくつかのクラスが用意されています。
+
+代表的なところでいうと、日付を扱うための `Date` クラスです。
+
+`Date` クラスは以下のように利用できます。
+
+```js
+const now = new Date(); // 現在日時から `Date` インスタンスを作成
+console.log(now.toString()); // `Date` クラスが保存している日時を文字列に変換して出力
+console.log(now.getFullYear()); // `Date` クラスが保存している年を取得
+
+const date = new Date("2023/01/01"); // 2023年1月1日の `Date` インスタンスを作成
+date.setDate(date.getDate() + 1); // 1日後の日付をセット
+console.log(date.toString()); // 2023年1月2日の文字列を出力
+```
+
+より詳しくは [Date \- JavaScript \| MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Date) を参照してください。
+
+::: warning Exam
+以下の要件を満たすクラスを定義せよ。
+
+- `Wallet` というクラスを定義する
+- `new` で残高を指定する
+- プロパティとして `money` を持つ
+- `show()` というメソッドがあり、残高を標準出力する
+- `use(price)` というメソッドがあり、引数で利用した金額をプロパティの `money` から引く
+- `add(price)` というメソッドがあり、引数で追加する金額をプロパティの `money` に足す
+
+上記で定義したクラスを使って以下の処理を行え。
+
+1. 新しく `Wallet` インスタンスを作成し、残高を1000円にする
+2. `show()` を呼び出し、残高を標準出力する
+3. 残高から500円引く
+4. 残高に300円を追加する
+5. `show()` を呼び出し、残高を標準出力する
+6. もう一つ新しく `Wallet` インスタンスを作成し、残高を700円にする
+7. 1つ目と2つ目の残高を比較し、多い方の残高を標準出力する
+
+[回答例](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/MYGwhgzhAEDqYhAUwC7QN4ChrWAewDsIUAnAV2BTxIAoBbQpATwEoNsdoUALASwgB0DAs2gBeaMOYBuDgF9MHCNzwB3GmyydchCHmQCQeAOY0e-IY1aycCjmQhIaABxK9gSTR07nBUpuJcfH5W0AC00K7uSNLQAPRx0AAGvpYiAWESUR5J0IDmDIBBDIARDIAiDPKKOGAAJlUubh5e2qn+gc2hANSR9UjxiSnBaaLtWd25haXldnEAVNAAjNDTcZj4RGiqCMgoCxIiqnCbqDRzAAxnLLKYM9AATIvLG4iocwLKahqX1wDM95iPWy8HE4AKznT6zAAsv3+zwE1VqXzBimuwOhh22rxU6guyNmADZfqtiNAYSg7rskPt4E8UDQAOxIq6zOm-XgAM2gNFJLxaAB4SeiboNWOwcET9EhDCYuYLhTi5NAkCBHKKdEQJVLTNy5bIFEA)
+:::
+
+## まとめ
+
+以上が、JavaScriptの基本的な書き方です。
+
+GASを扱う場合、ここに書かれている内容は最低限理解しておく必要があります。もしGASなどを書いていてわからないことがあれば、このドキュメントを参照してください。

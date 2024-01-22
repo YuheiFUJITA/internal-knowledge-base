@@ -10,6 +10,7 @@ export default defineConfig({
   },
   markdown: {
     math: true,
+    lineNumbers: true,
   },
   base: "/internal-knowledge-base/",
   lang: "ja-JP",
