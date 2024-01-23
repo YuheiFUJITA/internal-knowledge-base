@@ -1276,7 +1276,7 @@ console.log(date.toString()); // 2023年1月2日の文字列を出力
 3. 残高から500円引く
 4. 残高に300円を追加する
 5. `show()` を呼び出し、残高を標準出力する
-6. もう一つ新しく `Wallet` インスタンスを作成し、残高を700円にする
+6. もう1つ新しく `Wallet` インスタンスを作成し、残高を700円にする
 7. 1つ目と2つ目の残高を比較し、多い方の残高を標準出力する
 
 [回答例](https://www.typescriptlang.org/play?noImplicitAny=false&filetype=js#code/MYGwhgzhAEDqYhAUwC7QN4ChrWAewDsIUAnAV2BTxIAoBbQpATwEoNsdoUALASwgB0DAs2gBeaMOYBuDgF9MHCNzwB3GmyydchCHmQCQeAOY0e-IY1aycCjmQhIaABxK9gSTR07nBUpuJcfH5W0AC00K7uSNLQAPRx0AAGvpYiAWESUR5J0IDmDIBBDIARDIAiDPKKOGAAJlUubh5e2qn+gc2hANSR9UjxiSnBaaLtWd25haXldnEAVNAAjNDTcZj4RGiqCMgoCxIiqnCbqDRzAAxnLLKYM9AATIvLG4iocwLKahqX1wDM95iPWy8HE4AKznT6zAAsv3+zwE1VqXzBimuwOhh22rxU6guyNmADZfqtiNAYSg7rskPt4E8UDQAOxIq6zOm-XgAM2gNFJLxaAB4SeiboNWOwcET9EhDCYuYLhTi5NAkCBHKKdEQJVLTNy5bIFEA)
