@@ -26,6 +26,16 @@ const sidebar: DefaultTheme.Sidebar = {
           text: "JavaScript 基礎",
           link: "/articles/js-introduction",
         },
+        {
+          text: "Google Apps Script",
+          collapsed: false,
+          items: [
+            {
+              text: "基礎",
+              link: "/articles/gas-introduction",
+            },
+          ],
+        },
       ],
     },
   ],
