@@ -34,6 +34,10 @@ const sidebar: DefaultTheme.Sidebar = {
               text: "基礎",
               link: "/articles/gas-introduction",
             },
+            {
+              text: "Trigger",
+              link: "/articles/gas-trigger",
+            },
           ],
         },
       ],
